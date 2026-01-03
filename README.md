@@ -24,20 +24,17 @@
 ## 🚀 快速开始 / Quick Start
 
 ### 1. 克隆仓库
-\\`\\`\\`bash
+```bash
 git clone https://github.com/daoyuanw/daily-habit-tracker.git
 cd daily-habit-tracker
-\\`\\`\\`
 
 ### 2. 安装依赖
-\\`\\`\\`bash
+```bash
 pip install streamlit pandas plotly
-\\`\\`\\`
 
 ### 3. 启动程序
-\\`\\`\\`bash
+```bash
 streamlit run habit_tracker.py
-\\`\\`\\`
 
 ---
 
@@ -51,4 +48,4 @@ streamlit run habit_tracker.py
 
 ## 📄 开源协议 / License
 
-Distributed under the **MIT License**. See \\`LICENSE\\` for more information.
+Distributed under the **MIT License**. See \`LICENSE\` for more information.
