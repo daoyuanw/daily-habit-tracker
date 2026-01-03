@@ -1,44 +1,66 @@
-# Daily Habit Tracker
+🔘 Deep Focus System
+A High-Contrast, Minimalist Productivity Suite. > 这是一个为深度工作者设计的极简主义习惯追踪与专注系统。拒绝花哨，回归专注本质。
 
-A simple, interactive Python script to help you build and maintain daily habits. Track what you've accomplished each day, view your progress, add new habits, and reset for a fresh start. Built using only Python basics: variables, lists, loops, and functions—no external libraries required!
+✨ 核心特性 / Features
+🌑 Immersive Focus Mode: 巨型黑白对比番茄钟，极致沉浸，消除视觉干扰。
 
-## Features
-- **Habit Management**: Start with predefined habits (e.g., Exercise, Read 30 minutes) and easily add your own.
-- **Daily Marking**: Quickly mark habits as "done" or "not done" via user prompts.
-- **Progress Tracking**: See completion count and percentage with a summary.
-- **Interactive Menu**: A loop-based menu for viewing, marking, adding, resetting, or quitting.
-- **Visual Feedback**: Emojis (✅/❌) for quick status glances.
+📊 Dynamic Task Classification:
 
-## Requirements
-- Python 3.6+ (tested on 3.12)
+专注型 (Focus): 关联时长目标，自动计算完成度进度条。
 
-No additional dependencies—pure Python!
+打卡型 (Check-off): 适用于简单日常习惯（如：做饭、早起）。
 
-## Installation
-1. Clone or download this repository:
-   ```
-   git clone https://github.com/yourusername/daily-habit-tracker.git
-   cd daily-habit-tracker
-2. Use the menu options:
-- **1. View habits**: Displays all habits with current statuses.
-- **2. Mark today's habits**: Prompts for each habit (yes/no).
-- **3. Show progress**: Prints done/total and percentage.
-- **4. Add a new habit**: Input a new habit name to append.
-- **5. Reset for new day**: Clears all statuses to "not done".
-- **6. Quit**: Exit the program.
+🔔 Smart Pomodoro Segments: 默认 30 分钟一轮，支持自动切换 5 分钟绿色休息模式，伴有中断提示音。
 
-## Customization
-- Edit the `habits` list in the code to personalize your starting habits.
-- Add more features like saving to a file: Use `open('habits.txt', 'w')` in a function.
+📉 GitHub-Style Heatmap: 自动生成年度打卡贡献图，见证每一天的坚持。
 
-## Learning This Project
-This script was built step-by-step to teach Python fundamentals:
-- **Variables**: Store habits and statuses.
-- **Lists**: Hold multiple habits and their states.
-- **Loops**: For iteration (e.g., `for` over lists, `while` for menu).
-- **Functions**: Modular code for display, marking, etc.
+⚙️ Live Management: 支持在运行中实时修改习惯名称、目标时长及任务类型。
 
-Great for beginners—try modifying it!
+💾 Auto-Persistence: 本地 JSON 自动存储，数据永远掌握在自己手中。
 
-## Contributing
-Feel free to fork, improve, or submit pull requests. Ideas: Add data persistence, streaks, or GUI with Tkinter.
+🚀 快速开始 / Quick Start
+1. 克隆仓库
+Bash
+
+git clone https://github.com/daoyuanw/daily-habit-tracker.git
+cd daily-habit-tracker
+2. 安装依赖
+Bash
+
+pip install streamlit pandas plotly
+3. 启动程序
+Bash
+
+streamlit run habit_tracker.py
+🎨 预览 / UI Preview
+功能模块	描述
+Deep Timer	140px 巨型数字显示，支持工作/休息颜色动态切换
+Progress Bar	基于每日目标时长的动态进度条，实时结算
+Yearly Map	自动根据习惯主色调生成的 365 天热力图
+
+导出到 Google 表格
+
+🛠️ 技术栈 / Tech Stack
+Frontend/Backend: Streamlit (The fastest way to build data apps)
+
+Data Viz: Plotly (Interactive high-quality charts)
+
+Logic: Python 3.x
+
+Storage: Local JSON
+
+🤝 贡献 / Contributing
+如果你有更好的 UI 方案或功能创意，欢迎提交 Pull Request 或 Issue！
+
+Fork 本仓库
+
+创建你的特性分支 (git checkout -b feature/AmazingFeature)
+
+提交你的改动 (git commit -m 'Add some AmazingFeature')
+
+推送到分支 (git push origin feature/AmazingFeature)
+
+开启 Pull Request
+
+📄 开源协议 / License
+Distributed under the MIT License. See LICENSE for more information.
