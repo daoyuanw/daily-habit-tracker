@@ -27,15 +27,17 @@
 ```bash
 git clone https://github.com/daoyuanw/daily-habit-tracker.git
 cd daily-habit-tracker
+```
 
 ### 2. 安装依赖
 ```bash
 pip install streamlit pandas plotly
+```
 
 ### 3. 启动程序
 ```bash
 streamlit run habit_tracker.py
-
+```
 ---
 
 ## 🛠️ 技术栈 / Tech Stack
